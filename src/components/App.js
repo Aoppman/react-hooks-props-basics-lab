@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home color="firebrick" name="Liza" city="New York" />
+      <About bio="I made this!" />
     </div>
   );
 }
